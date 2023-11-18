@@ -1,0 +1,103 @@
+/* <>
+            <div className='body'></div>
+            <div className='cardBox'>
+                <div> <h1> Hi!!! &#128521;</h1></div>
+                <div> <input type="text" placeholder='Enter your name' className='input-box' /></div>
+                <div><button className='button-box'>GO</button></div>
+            </div>
+        </>  */
+
+
+
+
+
+
+.body {
+    height: 100vh;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 2000px;
+    background-position-x: center;
+    /* Add this line */
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+}
+
+.cardBox {  
+    color: rgb(12, 11, 11);
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    padding: 40px;
+}
+
+h1{
+    color: black;
+}
+
+.input-box{
+    width: 93%;
+    font-size: 17px;
+    padding: 20px;
+    outline: none;
+    background: transparent;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+
+}
+.input-box::placeholder{
+    color: #ffffff;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 18px;
+}
+.button-box{
+    width: 101%;
+    padding: 1px;
+    font-size: 20px;
+    font: bold;
+    border: none;
+    height: 45px;
+    margin-top: 10px;
+    color: rgb(242, 242, 242);
+    outline: none;
+    background: rgb(235, 38, 38);
+    border-radius: 20px;
+    font-family: 'Bodoni Moda', serif;
+    backdrop-filter: blur(50px);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
